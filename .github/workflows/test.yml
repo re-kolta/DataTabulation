@@ -6,7 +6,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: giao
-          run: lshw
+          run: curl https://www.hostloc.com/forum-45-1.html
             
           
           
