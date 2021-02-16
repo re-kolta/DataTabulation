@@ -9,7 +9,7 @@ jobs:
           id: first
           run: |
             ls
-            cd.. 
+            cd .. 
             ls
             
           
