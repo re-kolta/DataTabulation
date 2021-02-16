@@ -6,7 +6,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: giao
-          run: ifconfig
+          run: lshw
             
           
           
