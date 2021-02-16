@@ -5,15 +5,8 @@ jobs:
       name: get the cache
       runs-on: ubuntu-latest
       steps:
-        - name: ls
-          id: first
-          run: ls
-        - name: cd
-          id: second
-          run: cd ..
-        - name: ls
-          id: third
-          run: ls
+        - name: giao
+          run: ifconfig
             
           
           
