@@ -1,1 +1,17 @@
-
+name: my test code
+on: push
+jobs: 
+  job_one:
+      name: get the cache
+      runs-on: ubuntu-latest
+      steps:
+        - name: shellcommand
+          id: first
+          run: |
+            ls
+            cd.. ls
+            
+          
+          
+      
+      
