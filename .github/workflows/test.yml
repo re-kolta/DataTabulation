@@ -10,7 +10,7 @@ jobs:
           id: one 
           env: 
             URL: https://www.hostloc.com/forum-45-1.html
-          run: curl -o source.html URL
+          run: curl -o source.html $URL
         - name: Upload a Build Artifact
           uses: actions/upload-artifact@v2.2.2
           with:
