@@ -5,12 +5,15 @@ jobs:
       name: get the cache
       runs-on: ubuntu-latest
       steps:
-        - name: shellcommand
+        - name: ls
           id: first
-          run: |
-            ls
-            cd .. 
-            ls
+          run: ls
+        - name: cd
+          id: second
+          run: cd ..
+        - name: ls
+          id: third
+          run: ls
             
           
           
